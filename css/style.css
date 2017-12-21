@@ -1,0 +1,100 @@
+/*
+Style Sheet for guillemaud.me
+Author: Thomas GUILLEMAUD
+Email: guillemaud.thomas@gmail.me
+Website: https://guillemaud.me
+*/
+
+/* Base Styles & Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+html {
+    font-size: 62.5%;
+    height: 100%
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)
+}
+
+h1,h2{
+		color: #000;
+		color: rgba(0, 0, 0, 0.75);
+		text-transform: uppercase;
+		text-align: center;
+}
+
+h1 {
+    font-size: 4.0rem;
+    line-height: 1.2;
+    letter-spacing: -.1rem;
+    margin-bottom: 0;
+    margin-top: 2%
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: -.08rem
+}
+
+p {
+    margin-top: 0;
+    display: inline-block
+}
+
+p:last-of-type {
+    margin-bottom: 0
+}
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 2% auto;
+    padding: 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.75)
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 3px solid #daa520;
+    border-bottom: 3px solid rgba(218, 165, 32, 0.3)
+}
+
+a:hover {
+    color: #000;
+    border-bottom: 3px solid #daa520;
+    border-bottom: 3px solid rgba(218, 165, 32, 1)
+}
+
+/* Avatar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto
+}
+
+img {
+    display: inline
+}
