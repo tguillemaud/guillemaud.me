@@ -5,6 +5,7 @@ Email: guillemaud.thomas@gmail.me
 Website: https://guillemaud.me
 */
 
+
 /* Base Styles & Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -17,19 +18,20 @@ body {
     font-size: 1.6rem;
     line-height: 1.8;
     font-weight: 300;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     background: linear-gradient(to right, #FAFFD1, #A1FFCE);
 }
 
-h1,h2{
-		color: #000;
-		color: rgba(0, 0, 0, 0.75);
-		text-transform: uppercase;
-		text-align: center;
+h1,
+h2 {
+    color: #000;
+    color: rgba(0, 0, 0, .75);
+    text-transform: uppercase;
+    text-align: center
 }
 
 h1 {
-    font-size: 4.0rem;
+    font-size: 4rem;
     line-height: 1.2;
     letter-spacing: -.1rem;
     margin-bottom: 0;
@@ -52,8 +54,10 @@ p:last-of-type {
     margin-bottom: 0
 }
 
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .container {
     border-radius: 5px;
     width: 100%;
@@ -66,16 +70,18 @@ p:last-of-type {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    background-color: rgba(255, 255, 255, 0.75)
+    background-color: rgba(255, 255, 255, .75)
 }
+
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 a {
     color: #000;
     text-decoration: none;
     border-bottom: 3px solid #daa520;
-    border-bottom: 3px solid rgba(218, 165, 32, 0.3)
+    border-bottom: 3px solid rgba(218, 165, 32, .3)
 }
 
 a:hover {
@@ -84,8 +90,10 @@ a:hover {
     border-bottom: 3px solid rgba(218, 165, 32, 1)
 }
 
+
 /* Avatar
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .image-cropper {
     width: 100px;
     height: 100px;
