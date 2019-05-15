@@ -1,6 +1,8 @@
 /*
- X-Frame-Options: DENY
- X-XSS-Protection: 1; mode=block
- Referrer-Policy: no-referrer
- X-Content-Type-Options: nosniff
-/* Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce;
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: no-referrer
+X-Content-Type-Options: nosniff
+Content-Security-Policy: "img-src 'self' data: *.cloudfront.com/*"
+X-Content-Security-Policy: "img-src 'self' data: *.cloudfront.com/*"
+X-WebKit-CSP: "img-src 'self' data: *.cloudfront.com/*"
