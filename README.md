@@ -1,2 +1,2 @@
 # guillemaud.me
-My loading speed focused personal page
+My performance oriented personal page
