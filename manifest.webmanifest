@@ -5,7 +5,7 @@
     "background_color": "#cfd9df",
     "display": "minimal-ui",
     "orientation": "portrait",
-    "Scope": "/",
+    "scope": "/",
     "start_url": "/",
     "icons": [{
             "src": "img/icons/icon-72x72.png",
