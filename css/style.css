@@ -106,11 +106,3 @@ a:hover {
 img {
     display: inline
 }
-
-/* List alignment
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.container ul {
-    text-align: left;
-    padding-left: 0; /* To remove the default padding-left of ul */
-}
