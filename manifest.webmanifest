@@ -1,13 +1,14 @@
 {
     "name": "Thomas GUILLEMAUD",
     "short_name": "GUILLEMAUD",
-    "theme_color": "#cc2200",
-    "background_color": "#cfd9df",
+    "theme_color": "#1e1e2f",
+    "background_color": "#1e1e2f",
     "display": "minimal-ui",
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
-    "icons": [{
+    "icons": [
+        {
             "src": "img/icons/icon-72x72.png",
             "sizes": "72x72",
             "type": "image/png"

@@ -1,7 +1,10 @@
+/*
+  Security Headers for guillemaud.me
+*/
+
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
-Referrer-Policy: no-referrer
+Referrer-Policy: no-referrer-when-downgrade
 X-Content-Type-Options: nosniff
-Content-Security-Policy: "img-src 'self' data: *.cloudfront.com/*; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
-X-Content-Security-Policy: "img-src 'self' data: *.cloudfront.com/*; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
-X-WebKit-CSP: "img-src 'self' data: *.cloudfront.com/*; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
+Content-Security-Policy: default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'; object-src 'none'
