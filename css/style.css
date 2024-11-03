@@ -1,3 +1,10 @@
+/*
+Style Sheet for guillemaud.me
+Author: Thomas GUILLEMAUD
+Email: guillemaud.thomas@gmail.me
+Website: https://guillemaud.me
+*/
+
 /* Base Styles & Typography */
 html {
     font-size: 62.5%;
@@ -71,28 +78,21 @@ a:hover {
 }
 
 /* Avatar */
-/* Avatar */
 .image-cropper {
     width: 100px;
     height: 100px;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    display: inline-block;
+    margin: 0 auto 20px; /* Center horizontally and add space below */
 }
 
 .image-cropper img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Ensures the image covers the entire circular area */
     display: block;
-}
-
-img {
-    display: inline;
 }
 
 /* Footer Section */
