@@ -77,90 +77,11 @@
     </div>
 
     <!-- Structured Data with JSON-LD -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Thomas GUILLEMAUD",
-        "jobTitle": "Chief Information Officer",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Maison Retail Management International",
-            "url": "https://maisonrmi.com/"
-        },
-        "url": "https://guillemaud.me/",
-        "sameAs": [
-            "https://linkedin.com/in/thomasguillemaud",
-            "https://x.com/tguillemaud",
-            "https://github.com/tguillemaud"
-        ],
-        "image": "https://guillemaud.me/img/avatar.jpg",
-        "description": "Digital Transformation Leader and CIO at Maison Retail Management International.",
-        "email": "mailto:your-email@example.com",
-        "telephone": "+84-123-456-7890",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Ho Chi Minh City",
-            "addressCountry": "Vietnam"
-        }
-    }
-    </script>
+    <script src="scripts/structured-data.js" defer></script>
 
-    <!-- JavaScript for Theme Toggle -->
-    <script>
-        const toggleButton = document.getElementById('theme-toggle');
-        const themeIcon = document.getElementById('theme-icon');
-
-        toggleButton.addEventListener('click', () => {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            if (currentTheme === 'light') {
-                document.documentElement.setAttribute('data-theme', 'dark');
-                localStorage.setItem('theme', 'dark');
-            } else {
-                document.documentElement.setAttribute('data-theme', 'light');
-                localStorage.setItem('theme', 'light');
-            }
-            themeIcon.classList.toggle('sun-icon');
-            themeIcon.classList.toggle('moon-icon');
-        });
-
-        // Load theme from local storage on page load
-        const savedTheme = localStorage.getItem('theme') || 'dark';
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        if (savedTheme === 'light') {
-            themeIcon.classList.add('sun-icon');
-        } else {
-            themeIcon.classList.add('moon-icon');
-        }
-    </script>
-
-    <!-- JavaScript for Stardust Effect -->
-    <script>
-        const imageCropper = document.querySelector('.image-cropper');
-        const stardustContainer = document.querySelector('.stardust-container');
-
-        imageCropper.addEventListener('mouseenter', createStardust);
-
-        function createStardust() {
-            for (let i = 0; i < 20; i++) {
-                const stardust = document.createElement('div');
-                stardust.classList.add('stardust');
-                const angle = Math.random() * 2 * Math.PI;
-                const radius = Math.random() * 80 + 20;
-                const x = Math.cos(angle) * radius;
-                const y = Math.sin(angle) * radius;
-                stardust.style.left = '50%';
-                stardust.style.top = '50%';
-                stardust.style.transform = `translate(-50%, -50%) translate(${x}px, ${y}px)`;
-                stardustContainer.appendChild(stardust);
-
-                // Remove the particle after animation
-                stardust.addEventListener('animationend', () => {
-                    stardust.remove();
-                });
-            }
-        }
-    </script>
+    <!-- JavaScript Files -->
+    <script src="scripts/theme-toggle.js" defer></script>
+    <script src="scripts/stardust-effect.js" defer></script>
 </body>
 
 </html>
