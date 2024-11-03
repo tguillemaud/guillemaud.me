@@ -1,13 +1,13 @@
 /*
-  Security Headers for guillemaud.me
+  Security and Performance Headers for guillemaud.me
 */
 
+/* Security Headers */
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: no-referrer-when-downgrade
 X-Content-Type-Options: nosniff
-Cache-Control: public, max-age=31536000
 Content-Security-Policy: 
   default-src 'self'; 
   script-src 'self'; 
@@ -15,3 +15,9 @@ Content-Security-Policy:
   img-src 'self' data:; 
   font-src 'self' data:; 
   object-src 'none'
+
+/* Caching Headers */
+Cache-Control: public, max-age=31536000
+
+/* Compression Support */
+Content-Encoding: gzip
