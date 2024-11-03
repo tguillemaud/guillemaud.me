@@ -118,7 +118,7 @@ h1 {
     line-height: 1.2;
     letter-spacing: -0.1rem;
     margin-top: 2%;
-    margin-bottom: 20px; /* Added margin-bottom */
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -126,13 +126,13 @@ h2 {
     font-size: 2rem;
     line-height: 1.1;
     letter-spacing: -0.08rem;
-    margin-bottom: 20px; /* Added margin-bottom */
+    margin-bottom: 20px;
 }
 
 /* Paragraphs */
 p {
     margin-top: 0;
-    margin-bottom: 1.5em; /* Added margin-bottom for spacing */
+    margin-bottom: 1.5em;
     color: var(--text-color);
 }
 
@@ -172,10 +172,10 @@ a:hover::after {
 
 /* Avatar */
 .image-cropper {
-    position: relative; /* Needed for absolute positioning of particles */
+    position: relative;
     width: 100px;
     height: 100px;
-    overflow: visible; /* Allow particles to overflow */
+    overflow: hidden;
     border-radius: 50%;
     margin-bottom: 20px;
     border: 2px solid var(--link-color);
@@ -194,41 +194,8 @@ a:hover::after {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%; /* Ensures the image is round */
-    display: block;
-}
-
-/* Stardust Container */
-.stardust-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    overflow: visible;
-}
-
-/* Stardust Particle */
-.stardust {
-    position: absolute;
-    width: 4px;
-    height: 4px;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 70%);
     border-radius: 50%;
-    opacity: 0;
-    animation: stardust-animation 1s ease-out forwards;
-}
-
-@keyframes stardust-animation {
-    0% {
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1);
-    }
-    100% {
-        opacity: 0;
-        transform: translate(-50%, -50%) translate(var(--x), var(--y)) scale(0);
-    }
+    display: block;
 }
 
 /* Centering Header Content */
@@ -240,7 +207,7 @@ header {
 
 /* Footer Section */
 footer {
-    margin-top: 40px; /* Increased margin-top for more space */
+    margin-top: 40px;
     text-align: center;
     width: 100%;
     color: var(--footer-text-color);

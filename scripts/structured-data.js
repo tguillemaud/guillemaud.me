@@ -18,8 +18,6 @@ const structuredData = {
     ],
     "image": "https://guillemaud.me/img/avatar.jpg",
     "description": "Digital Transformation Leader and CIO at Maison Retail Management International.",
-    "email": "mailto:your-email@example.com",
-    "telephone": "+84-123-456-7890",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Ho Chi Minh City",
