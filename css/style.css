@@ -62,7 +62,7 @@ p:last-of-type {
     border-radius: 5px;
     width: 100%;
     max-width: 600px;
-    margin: 2% auto;
+    margin: 2% auto 2% auto;
     padding: 2%;
     box-sizing: border-box;
     display: flex;
