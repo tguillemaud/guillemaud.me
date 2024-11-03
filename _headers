@@ -2,9 +2,6 @@ X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
 Referrer-Policy: no-referrer
 X-Content-Type-Options: nosniff
-
-Content-Security-Policy: "default-src 'self'; script-src 'self' 'unsafe-inline'; img-src 'self' data: *.cloudfront.com; style-src 'self' 'unsafe-inline'; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
-
-X-Content-Security-Policy: "default-src 'self'; script-src 'self' 'unsafe-inline'; img-src 'self' data: *.cloudfront.com; style-src 'self' 'unsafe-inline'; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
-
-X-WebKit-CSP: "default-src 'self'; script-src 'self' 'unsafe-inline'; img-src 'self' data: *.cloudfront.com; style-src 'self' 'unsafe-inline'; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
+Content-Security-Policy: "img-src 'self' data: *.cloudfront.com/*; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
+X-Content-Security-Policy: "img-src 'self' data: *.cloudfront.com/*; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
+X-WebKit-CSP: "img-src 'self' data: *.cloudfront.com/*; report-uri https://ac012a84e439d205c79f81120f115541.report-uri.com/r/d/csp/enforce"
