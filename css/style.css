@@ -65,6 +65,11 @@ p:last-of-type {
     background-color: rgba(255, 255, 255, .75);
 }
 
+/* Header */
+header {
+    text-align: center;
+}
+
 /* Links */
 a {
     color: #000;
@@ -84,7 +89,6 @@ a:hover {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    display: inline-block;
     margin: 0 auto 20px; /* Center horizontally and add space below */
 }
 
