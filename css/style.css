@@ -80,10 +80,8 @@ a:hover {
     margin: auto;
 }
 
-.image-cropper img {
-    width: 100%;
-    height: auto;
-    display: block;
+img {
+    display: inline;
 }
 
 /* Footer Section */
